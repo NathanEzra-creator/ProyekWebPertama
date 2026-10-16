@@ -1,0 +1,45 @@
+/* Mengatur font dan menghapus margin bawaan browser */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Mengatur bagian kepala (header) */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Mengatur area konten utama */
+main {
+    max-width: 800px;
+    margin: 30px auto; /* Membuat konten berada di tengah */
+    padding: 0 20px;
+}
+
+/* Memberikan gaya pada setiap bagian (section) */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Membuat sudut menjadi melengkung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Memberikan efek bayangan */
+}
+
+/* Mengatur bagian kaki (footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
